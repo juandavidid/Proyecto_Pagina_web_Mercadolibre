@@ -148,6 +148,10 @@ header input[type="text"] {
 
 }
 
+.logo-Disney>i {
+    display: none;
+}
+
 .ofertaPlan {
     width: 269px;
     height: 24px;
@@ -159,6 +163,15 @@ header input[type="text"] {
     font-size: 14px;
 
 }
+
+.iconoCarritoResponsive {
+    display: none;
+}
+
+.container-oferta>i {
+    display: none;
+}
+
 
 .ofertaPlan>.TextOferta {
     color: #fdfdfd;
@@ -424,4 +437,200 @@ footer {
     font-size: 12px;
     color: #777;
     margin: 5px 0;
+}
+
+
+/*----------------------------------Modo Responsive-------------------------------------------*/
+
+@media(max-width: 1264px) {
+
+    header {
+        background-color: #ffe600;
+        /*
+    padding: 15px;
+    */
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+
+    .container-oferta {
+
+        margin-left: 100px;
+    }
+
+    .ofertaPlan {
+        width: 269px;
+        height: 24px;
+        background-color: #38005b;
+        border-radius: 5px;
+        color: #ccb7d2;
+        padding-top: 6px;
+        font-size: 14px;
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+
+    }
+
+
+}
+
+@media(max-width: 1197px) {
+
+    .container-oferta {
+
+        margin-left: 65px;
+    }
+
+
+
+
+}
+
+
+@media(max-width:1159px) {
+    .container-barrabusqueda {
+        width: 451px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 366px;
+    }
+
+}
+
+@media(max-width: 1115px) {
+
+    .container-oferta {
+
+        margin-left: 50px;
+    }
+
+    .container-barrabusqueda {
+        width: 400px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 310px;
+    }
+
+    .container-barrabusqueda>nav {
+        gap: 8px;
+    }
+
+    .nav-carritocompras {
+        gap: 12px;
+        right: 76px;
+    }
+}
+
+@media(max-width:1061) {
+
+    .container-barrabusqueda {
+        width: 350px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 250px;
+    }
+
+
+    .container-oferta {
+
+        margin-left: 30px;
+    }
+
+    .container-barrabusqueda>nav {
+        gap: 6px;
+    }
+
+    .nav-carritocompras {
+        gap: 9px;
+        right: 148px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:1055px) {
+    .containerOne {
+        width: 278px;
+    }
+
+    .nav-carritocompras {
+        gap: 9px;
+        right: 78px;
+    }
+
+    .container-oferta {
+
+        margin-left: 20px;
+    }
+}
+
+
+@media(max-width:987px) {
+
+    .containerOne>.logonlocation {
+        margin-left: 38px;
+    }
+
+    .container-barrabusqueda>nav {
+        display: none;
+    }
+
+    .nav-carritocompras {
+        display: none;
+    }
+
+    .txt-NUEVO {
+        display: none;
+    }
+
+    .txt-Ubicacion {
+        color: #9d8e00;
+    }
+
+    .logo-Disney>i {
+        display: block;
+        font-size: 24px;
+        position: absolute;
+        top: 16px;
+        left: 46px;
+    }
+
+    .logo-Disney>img {
+        display: none;
+    }
+
+    .logo-Disney>span {
+        display: none;
+    }
+
+    .ofertaPlan {
+        display: none;
+    }
+
+    .iconoCarritoResponsive {
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 10px;
+        left: 67px;
+    }
+
+    .container-oferta>i {
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: 146px;
+        font-size: 20px;
+    }
+
+
 }
