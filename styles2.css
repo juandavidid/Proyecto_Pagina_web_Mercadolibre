@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/*-------------------------------HEADER------------------------------------------------------*/
+
+header {
+    background-color: #ffe600;
+    /*
+    padding: 15px;
+    */
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+/*--Contenedor1--*/
+.containerOne {
+    width: 319px;
+    height: 147px;
+}
+
+.containerOne>.logomercadolibre {
+    margin-top: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 38px;
+}
+
+.logomercadolibre>span {
+    position: absolute;
+    left: 50px;
+    color: #2D3277;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.texto25año {
+    font-size: 8px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 21px;
+    left: 38px;
+    width: 42px
+}
+
+.containerOne>.logonlocation {
+    margin-top: -9px;
+    padding-left: 5px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.logonlocation>span {
+    padding-left: 5px;
+    position: absolute;
+    top: 5px;
+    left: 28px;
+    font-size: 12px;
+    color: #9d8e00;
+
+}
+
+.txt-Ubicacion {
+    font-weight: 600;
+    color: #333;
+}
+
+.logonlocation>img {
+    width: 27px;
+}
+
+/*--Contenedor2--*/
+.container-barrabusqueda {
+    position: relative;
+    width: 500px;
+}
+
+header input[type="text"] {
+    width: 109%;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    top: -36px;
+    left: -105px;
+    height: 15px;
+    font-size: 16px;
+}
+
+.container-barrabusqueda>nav {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 16px;
+    left: -107px;
+    font-size: 12px;
+}
+
+.container-barrabusqueda>img {
+    width: 24px;
+    height: 45px;
+    position: absolute;
+    top: -41px;
+    left: 425px;
+}
+
+.txt-NUEVO {
+    background-color: #3483fa;
+    color: white;
+    position: absolute;
+    top: 4px;
+    left: 141px;
+    width: 41px;
+    height: 9px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 9px;
+    border-radius: 7px;
+
+}
+
+/*---Contenedor3----*/
+.container-oferta {
+    position: relative;
+    width: 200px;
+    height: 81px;
+    margin-left: 118px;
+}
+
+.logo-Disney {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -7px;
+    left: -62px;
+    font-size: 9px;
+}
+
+.logo-Disney>img {
+    width: 42px;
+
+
+}
+
+.ofertaPlan {
+    width: 269px;
+    height: 24px;
+    background-color: #38005b;
+    border-radius: 5px;
+    color: #ccb7d2;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 14px;
+
+}
+
+.ofertaPlan>.TextOferta {
+    color: #fdfdfd;
+    font-weight: 700;
+}
+
+.nav-carritocompras {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 64px;
+    right: 51px;
+
+}
+
+.iconoCarrito {
+    width: 20px;
+    height: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    /*color: black;*/
+    /*font-weight: bold;*/
+    font-size: 13px;
+}
+
+/*---------------------------------------------FIN---------------------------------------------*/
+
+/*--------------------------------------------SLIDER--------------------------------------------*/
+.slider {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.category {
+    background-color: white;
+    width: 18%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffe600;
+    text-decoration: none;
+}
