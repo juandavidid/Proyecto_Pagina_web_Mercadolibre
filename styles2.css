@@ -442,7 +442,172 @@ footer {
 
 /*----------------------------------Modo Responsive-------------------------------------------*/
 
-@media(max-width: 1264px) {
+/*Para Pantallas mas Grander*/
+
+/*
+@media(max-width:1920px) {
+    .nav-carritocompras {
+        right: 270px;
+    }
+
+    .container-oferta {
+        margin-left: 515px
+    }
+
+    header input[type="text"] {
+        left: 253px
+    }
+
+    .container-barrabusqueda>img {
+        left: 768px;
+    }
+
+    .container-barrabusqueda>nav {
+        left: 250px
+    }
+
+    .txt-NUEVO {
+        left: 501px;
+    }
+
+    .containerOne>.logomercadolibre {
+        margin-left: 334px;
+    }
+
+    .logomercadolibre>span {
+        top: 0px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 333px;
+    }
+
+}
+
+
+@media(max-width:1706.67px) {
+    .nav-carritocompras {
+        right: 230px;
+    }
+
+    .container-oferta {
+        margin-left: 361px
+    }
+
+    header input[type="text"] {
+        left: 185px
+    }
+
+    .container-barrabusqueda>img {
+        left: 706px;
+    }
+
+    .container-barrabusqueda>nav {
+        left: 184px
+    }
+
+    .txt-NUEVO {
+        left: 442px;
+    }
+
+    .containerOne>.logomercadolibre {
+        margin-left: 276px;
+    }
+
+    .logomercadolibre>span {
+        top: 0px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 279px;
+    }
+
+}
+
+@media(max-width:1600px) {
+    .nav-carritocompras {
+        right: 124px;
+    }
+
+    .container-oferta {
+        margin-left: 361px
+    }
+
+    header input[type="text"] {
+        left: 156px
+    }
+
+    .container-barrabusqueda>img {
+        left: 679px;
+    }
+
+    .container-barrabusqueda>nav {
+        left: 156px
+    }
+
+    .txt-NUEVO {
+        left: 408px;
+    }
+
+    .containerOne>.logomercadolibre {
+        margin-left: 276px;
+    }
+
+    .logomercadolibre>span {
+        top: 0px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 279px;
+    }
+
+}
+
+
+@media(max-width:1422.22px) {
+    .nav-carritocompras {
+        right: 64px;
+    }
+
+    .container-oferta {
+        margin-left: 260px
+    }
+
+    header input[type="text"] {
+        left: 76px
+    }
+
+    .container-barrabusqueda>img {
+        left: 595px;
+    }
+
+    .container-barrabusqueda>nav {
+        left: 75px
+    }
+
+    .txt-NUEVO {
+        left: 330px;
+    }
+
+    .containerOne>.logomercadolibre {
+        margin-left: 186px;
+    }
+
+    .logomercadolibre>span {
+        top: 0px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 188px;
+    }
+
+}
+*/
+
+
+/*Pantallas mas Pequeñas*/
+
+@media(max-width: 1280px) {
 
     header {
         background-color: #ffe600;
@@ -526,7 +691,7 @@ footer {
     }
 }
 
-@media(max-width:1061) {
+@media(max-width:1061px) {
 
     .container-barrabusqueda {
         width: 350px;
@@ -600,7 +765,7 @@ footer {
         font-size: 24px;
         position: absolute;
         top: 16px;
-        left: 46px;
+        left: 61px;
     }
 
     .logo-Disney>img {
@@ -621,15 +786,106 @@ footer {
         height: 25px;
         position: absolute;
         top: 10px;
-        left: 67px;
+        left: 80px;
     }
 
     .container-oferta>i {
         display: block;
         position: absolute;
         top: 12px;
-        left: 146px;
+        left: 173px;
         font-size: 20px;
+    }
+
+
+
+
+
+}
+
+@media(max-width:823px) {
+
+    .container-barrabusqueda {
+        width: 325px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 221px;
+    }
+
+    .containerOne>.logomercadolibre {
+        margin-left: 13px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 51px;
+    }
+
+    .logomercadolibre>span {
+        display: none;
+    }
+
+    .logomercadolibre>img {
+        margin-left: 40px;
+    }
+
+}
+
+@media(max-width:785px) {
+
+    .logo-Disney>i {
+        left: 45px;
+    }
+
+    .iconoCarritoResponsive {
+        left: 60px;
+    }
+
+    .container-oferta>i {
+        left: 138px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 180px;
+    }
+
+    .logomercadolibre>span {
+        display: none;
+    }
+
+    .logomercadolibre>img {
+        margin-left: 40px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 51px;
+    }
+
+}
+
+@media(max-width:716px) {
+
+    .logomercadolibre>img {
+        margin-left: 20px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 24px;
+    }
+
+    .container-barrabusqueda>img {
+        left: 168px;
+    }
+
+}
+
+@media(max-width:700px) {
+    .logomercadolibre>img {
+        margin-left: 0px;
+    }
+
+    .containerOne>.logonlocation {
+        margin-left: 10px;
     }
 
 
