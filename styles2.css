@@ -1,3 +1,11 @@
+:root {
+    --color-primary: #ffe600;
+    --color-secondary: #075B4C;
+    --color-Teratary: #FFFFFF;
+    --color-Quaternary: #4F0570;
+
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +14,6 @@ body {
 }
 
 /*-------------------------------HEADER------------------------------------------------------*/
-
 header {
     background-color: #ffe600;
     /*
@@ -172,7 +179,6 @@ header input[type="text"] {
     display: none;
 }
 
-
 .ofertaPlan>.TextOferta {
     color: #fdfdfd;
     font-weight: 700;
@@ -203,7 +209,72 @@ nav a {
 
 /*--------------------------------------------SLIDER--------------------------------------------*/
 
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
 
+.slider img {
+    width: 100%;
+    /* Hace que la imagen ocupe el 100% del contenedor */
+    height: auto;
+    /* Mantiene la proporción original de la imagen */
+    display: block;
+    /* Elimina cualquier espacio en blanco debajo de la imagen */
+}
+
+
+/* Categorías */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin: 20px;
+}
+
+.category {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Productos */
+#product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*
 .slider {
     background-color: #ddd;
     height: 200px;
@@ -323,6 +394,8 @@ nav a {
     height: 50px;
     margin-bottom: 10px;
 }
+
+
 */
 
 /*---------------------------------------------FIN----------------------------------------------------------------*/
@@ -440,7 +513,7 @@ footer {
 }
 
 
-/*----------------------------------Modo Responsive-------------------------------------------*/
+/*----------------------------------Modo Responsive HEADER-------------------------------------------*/
 
 /*Para Pantallas mas Grander*/
 
@@ -654,7 +727,6 @@ footer {
 
 }
 
-
 @media(max-width:1159px) {
     .container-barrabusqueda {
         width: 451px;
@@ -798,9 +870,6 @@ footer {
     }
 
 
-
-
-
 }
 
 @media(max-width:823px) {
@@ -889,4 +958,127 @@ footer {
     }
 
 
+}
+
+@media(max-width:685px) {
+    .container-barrabusqueda>img {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:616px) {
+    header input[type="text"] {
+        left: -95px;
+    }
+
+}
+
+@media(max-width:593px) {
+    header input[type="text"] {
+        left: -73px;
+    }
+
+}
+
+@media(max-width:505px) {
+    header input[type="text"] {
+        left: -61px;
+    }
+
+}
+
+@media(max-width:495px) {
+    header input[type="text"] {
+        left: -51px;
+    }
+
+}
+
+@media(max-width:458px) {
+    header input[type="text"] {
+        left: -37px;
+    }
+
+}
+
+@media(max-width:428px) {
+    header input[type="text"] {
+        left: -31px;
+    }
+
+}
+
+@media(max-width:420px) {
+    header input[type="text"] {
+        left: -4px;
+    }
+
+    .logo-Disney>i {
+        left: 85px;
+    }
+
+    .iconoCarritoResponsive {
+        left: 79px;
+    }
+
+}
+
+
+@media(max-width:371px) {
+    header input[type="text"] {
+        left: 20px;
+    }
+
+    .logo-Disney>i {
+        left: 104px;
+    }
+
+    .iconoCarritoResponsive {
+        left: 92px;
+    }
+
+}
+
+/*---------------------------------FIN---------------------------------------------*/
+
+
+/*----------------Media Query Slider----------------------------------------------*/
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /*
+    header {
+        flex-direction: column;
+    }
+
+    .container-barrabusqueda {
+        width: 100%;
+        margin: 0;
+    }
+
+    header input[type="text"] {
+        max-width: 100%;
+    }
+    */
+    .slider {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .category img {
+        max-width: 40px;
+    }
+
+    .card {
+        padding: 10px;
+    }
 }
