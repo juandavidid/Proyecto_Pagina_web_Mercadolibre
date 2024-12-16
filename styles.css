@@ -209,25 +209,32 @@ nav a {
 
 /*--------------------------------------------SLIDER--------------------------------------------*/
 
+/*Codigo para hacer funcioncar el slider*/
+
+.slider-container {
+    width: 1263px;
+    /*1263px*/
+    height: 451px;
+    overflow: hidden;
+    display: flex;
+}
+
 .slider {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ddd;
-    margin: 20px 10px;
-    padding: 20px;
-    border-radius: 5px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .slider img {
-    width: 100%;
+    width: 1263px;
     /* Hace que la imagen ocupe el 100% del contenedor */
-    height: auto;
+    height: 451px;
     /* Mantiene la proporción original de la imagen */
-    display: block;
-    /* Elimina cualquier espacio en blanco debajo de la imagen */
+    object-fit: cover;
+
 }
 
+
+/*-------------------------------------------------------------------*/
 
 /* Categorías */
 .categories {
